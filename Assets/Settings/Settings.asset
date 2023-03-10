@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aabab758acd0eda4ea4d51d42ebfcf94, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  config:
+    slimeHealth: 50
+    slimeHealthPerLevel: 5
+    attack: 4
+    attackPerLevel: 2
+    attackSpeed: 0.9
+    attackSpeedPerLevel: 0.05
+  reward:
+    reward: 5
+    bossReward: 50
+  price:
+    healthPrice: 10
+    healthPricePerLevel: 0.5
+    attackPrice: 10
+    attackPricePerLevel: 0.5
+    attackSpeedPrice: 10
+    attackSpeedPricePerLevel: 0.5
